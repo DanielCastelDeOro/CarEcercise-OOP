@@ -8,9 +8,9 @@ namespace CarEcercise
         {
             Car Truck = new Car();
             Truck.Make = "Ford";
-            Truck.Modle = "F250";
+            Truck.Model = "F250";
             Truck.Year = 2021;
-            Console.WriteLine($"My work truck is a {Truck.Make} \nThe modle is a {Truck.Modle} \nIt was built in {Truck.Year}");
+            Console.WriteLine($"My work truck is a {Truck.Make} \nThe model is a {Truck.Model} \nIt was built in {Truck.Year}");
             Console.WriteLine("------------------------------------------------------");
             
             Interior Inside = new Interior();
@@ -22,7 +22,7 @@ namespace CarEcercise
 
             Car WifesCar = new Car();
             WifesCar.Make = "Subaru";
-            WifesCar.Modle = "Forester";
+            WifesCar.Model = "Forester";
             WifesCar.Year = 2012;
 
             Interior WifesCarInside = new Interior();
@@ -30,7 +30,7 @@ namespace CarEcercise
             WifesCarInside.Material = "Cloth";
             WifesCarInside.HasElectricSeats = false;
 
-            Console.WriteLine($"My wifes car is a {WifesCar.Year}, {WifesCar.Make}, {WifesCar.Modle}\nIt fits {WifesCarInside.FitsNumberOfPeople}, the material is {WifesCarInside.Material} and does it have electric seats? {WifesCarInside.HasElectricSeats}");
+            Console.WriteLine($"My wifes car is a {WifesCar.Year}, {WifesCar.Make}, {WifesCar.Model}\nIt fits {WifesCarInside.FitsNumberOfPeople}, the material is {WifesCarInside.Material} and does it have electric seats? {WifesCarInside.HasElectricSeats}");
             
         }
         
